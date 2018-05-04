@@ -15,7 +15,7 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 // its value can get altered
 
 const Root = () =>
-<Router>
+<Router basename="/techliner/">
 	<div>
 
 		<Navbar inverse className="navbar">
